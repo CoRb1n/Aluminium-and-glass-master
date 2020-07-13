@@ -148,6 +148,7 @@ a:hover {
 .title {
   text-align: center;
   margin-bottom: 50px;
+  justify-content: center;
 }
 .title p {
   color: #777777;
