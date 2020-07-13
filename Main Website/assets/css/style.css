@@ -58,3 +58,13 @@
 #contactDetailsMap {
   padding: 10% 5% 10% 5%;
 }
+
+.middle {
+  padding: 20% 5% 10% 5%;
+  text-align: center;
+}
+
+#footerBot {
+  position: static;
+  bottom: 0;
+}
