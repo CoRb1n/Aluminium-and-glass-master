@@ -68,3 +68,9 @@
   position: static;
   bottom: 0;
 }
+
+#aboutUs p {
+  padding: 20% auto 10% auto;
+  text-align: center;
+  font-size: 1em;
+}
