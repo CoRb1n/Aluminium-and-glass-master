@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^index$ index.php
+AddType application/hxttpd-php .htm .html

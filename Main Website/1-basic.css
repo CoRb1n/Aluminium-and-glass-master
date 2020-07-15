@@ -1,0 +1,27 @@
+/* [THUMBNAILS] */
+#gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#gallery img {
+  box-sizing: border-box;
+  width: 25%;
+  max-height: 150px;
+  padding: 5px;
+  /* fill, contain, cover, scale-down : use whichever you like */
+  object-fit: cover;
+}
+
+/* [RESPONSIVE - MOBILE FRIENDLY] */
+@media screen and (max-width: 850px) {
+  #gallery img { width: 33%; }
+}
+@media screen and (max-width: 640px) {
+  #gallery img { width: 50%; }
+}
+
+/* [DOES NOT MATTER] */
+body, html {
+  padding: 0;
+  margin: 0;
+}
