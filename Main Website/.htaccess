@@ -1,4 +1,11 @@
-RewriteEngine on
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteRule ^index$ index.php
-AddType application/hxttpd-php .htm .html
+
+#Redirect to non www version
+RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+#Default charset
+AddDefaultCharset UTF-8

@@ -68,7 +68,7 @@ foreach ($files as $f) {
             type="text/css"
     />
     <link
-            href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
             rel="stylesheet"
     />
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet"/>
@@ -189,6 +189,22 @@ foreach ($files as $f) {
                             </li>
                             <li>
                                 <p>(CELL) 084 585 5822</p>
+                            </li>
+                            <li>
+                                <a
+                                style="color: whitesmoke;"
+                                href="mailto:info@aluminiumandglassmaster.co.za"
+                                ><i class="fa fa-envelope"></i>
+                                info@aluminiumandglassmaster.co.za</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                style="color: whitesmoke;"
+                                href="www.aluminiumandglassmaster.co.za"
+                                ><i class="fa fa-weibo"></i>
+                                www.aluminiumandglassmaster.co.za</a
+                                >
                             </li>
                         </ul>
                     </nav>
