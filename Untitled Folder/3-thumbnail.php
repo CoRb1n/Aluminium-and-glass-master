@@ -58,7 +58,7 @@ foreach ($files as $f) {
     <!-- [THE GALLERY] -->
     <div id="gallery"><?php
     foreach ($images as $i) {
-      printf("<img src='thumbnail/%s' onclick='gallery.show(this)'/>", basename($i));
+      printf("<img src='gallery/%s' onclick='gallery.show(this)'/>", basename($i));
     }
     ?></div>
   </body>
